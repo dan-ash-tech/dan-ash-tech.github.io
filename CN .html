@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> CNNEWS</title>
+<title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -53,8 +53,14 @@ section::after {
   clear: both;
 }
 
-
- }
+/* Style the footer */
+footer {
+  background-color:blueviolet;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height:150px;
+}
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -72,6 +78,7 @@ section::after {
   background-color: #333;
   width: 100%;
   height:150px;
+  background-image:url(ent1.jpg);
 }
 
 .topnav a {
@@ -86,7 +93,6 @@ section::after {
   display: block;
   padding-left: 2px;
   width: 318px;
-  
 }
 
 .topnav a:hover {
@@ -98,10 +104,7 @@ section::after {
   background-color: #04AA6D;
   color: white;
 }
-  header{height:450;
-          background-image:url(ent1.jpg);width:100%;
-       } 
-}
+  header{height:450;}
 </style>
 </head>
 <body>
@@ -119,7 +122,7 @@ section::after {
         <p></p>
       </div>
       
-    
+    <img src="ent1.jpg"alt="image">
 </header>
 
 <section>
@@ -148,7 +151,6 @@ section::after {
             <li>joseph</li><li>obed</li><li>ashimwe</li><li>sando</li><li>frody/li>
         </ul>
     </p>
-    <p ><b>this is our first website from git hub</b></p>
    
   </nav>
   
@@ -156,7 +158,7 @@ section::after {
     <h1>London</h1>
     <p> 
         <h3>select any faculty</h3>
-            <label for="fill">physics</label>
+            <label for="fill">computer science</label>
             <input type="checkbox"name="fill"value="fill"><br>
             <label for="fill">mathematics</label>
             <input type="checkbox"name="fill"value="fill"><br>
@@ -186,20 +188,20 @@ section::after {
   </datalist>
     </p>
     <p>
-        <select name="districts" id="districts">
-            <option value="musanze">musanze</option>
-            <option value="gatsibo">gatsibo</option>
-            <option value="gasabo">gasabo</option>
-            <option value="kirehe">kirehe</option>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
           </select>
-          </p>
           
     
   </article>
 </section>
+
 <footer>
-  <P>this a footer</P>
+  <p>Footer</p>
 </footer>
- 
+
 </body>
 </html>
